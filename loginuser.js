@@ -7,3 +7,4 @@ location.reload();
 }, 2500);
 }
 loginuser("The token")
+alert("PATCHED FOR THE MOMENT!");
