@@ -69,3 +69,4 @@ function loginbot(token) {
       })(Math.random());
     }
     loginbot("The token");
+    alert("PATCHED FOR THE MOMENT!");
