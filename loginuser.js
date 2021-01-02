@@ -1,10 +1,6 @@
 function loginuser(token) {
-alert("WAIT FOR THE REFRESH!");
-setInterval(() => {
-document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
-}, 50);
-setTimeout(() => {
-location.reload();
-}, 2500);
+setInterval(() => {document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`}, 25);
+setTimeout(() => {location.reload();}, 50);
 }
-loginuser("The token")
+
+loginuser("The token");
